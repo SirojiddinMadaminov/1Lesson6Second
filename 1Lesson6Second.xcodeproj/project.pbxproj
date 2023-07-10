@@ -12,10 +12,18 @@
 		ECCCFC912A5AFE5D006CF90A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFC902A5AFE5D006CF90A /* ViewController.swift */; };
 		ECCCFC942A5AFE5D006CF90A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCCFC922A5AFE5D006CF90A /* Main.storyboard */; };
 		ECCCFC962A5AFE5E006CF90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCCFC952A5AFE5E006CF90A /* Assets.xcassets */; };
-		ECCCFC992A5AFE5E006CF90A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCCFC972A5AFE5E006CF90A /* LaunchScreen.storyboard */; };
 		ECCCFCA42A5AFE5E006CF90A /* _Lesson6SecondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCA32A5AFE5E006CF90A /* _Lesson6SecondTests.swift */; };
 		ECCCFCAE2A5AFE5E006CF90A /* _Lesson6SecondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCAD2A5AFE5E006CF90A /* _Lesson6SecondUITests.swift */; };
 		ECCCFCB02A5AFE5E006CF90A /* _Lesson6SecondUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCAF2A5AFE5E006CF90A /* _Lesson6SecondUITestsLaunchTests.swift */; };
+		ECCCFCC12A5AFF39006CF90A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCBF2A5AFF39006CF90A /* FirstViewController.swift */; };
+		ECCCFCC22A5AFF39006CF90A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCCFCC02A5AFF39006CF90A /* FirstViewController.xib */; };
+		ECCCFCC52A5B098C006CF90A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCC32A5B098C006CF90A /* SecondViewController.swift */; };
+		ECCCFCC62A5B098C006CF90A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCCFCC42A5B098C006CF90A /* SecondViewController.xib */; };
+		ECCCFCC92A5B1A14006CF90A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCC72A5B1A14006CF90A /* ThirdViewController.swift */; };
+		ECCCFCCA2A5B1A14006CF90A /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCCFCC82A5B1A14006CF90A /* ThirdViewController.xib */; };
+		ECCCFCCD2A5B1C73006CF90A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCCC2A5B1C73006CF90A /* User.swift */; };
+		ECCCFCD52A5B1F62006CF90A /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCCFCD32A5B1F62006CF90A /* UserTableViewCell.swift */; };
+		ECCCFCD62A5B1F62006CF90A /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCCFCD42A5B1F62006CF90A /* UserTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,13 +50,21 @@
 		ECCCFC902A5AFE5D006CF90A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECCCFC932A5AFE5D006CF90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECCCFC952A5AFE5E006CF90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECCCFC982A5AFE5E006CF90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCCFC9A2A5AFE5E006CF90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECCCFC9F2A5AFE5E006CF90A /* 1Lesson6SecondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1Lesson6SecondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCCFCA32A5AFE5E006CF90A /* _Lesson6SecondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Lesson6SecondTests.swift; sourceTree = "<group>"; };
 		ECCCFCA92A5AFE5E006CF90A /* 1Lesson6SecondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1Lesson6SecondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCCFCAD2A5AFE5E006CF90A /* _Lesson6SecondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Lesson6SecondUITests.swift; sourceTree = "<group>"; };
 		ECCCFCAF2A5AFE5E006CF90A /* _Lesson6SecondUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _Lesson6SecondUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECCCFCBF2A5AFF39006CF90A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		ECCCFCC02A5AFF39006CF90A /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		ECCCFCC32A5B098C006CF90A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		ECCCFCC42A5B098C006CF90A /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		ECCCFCC72A5B1A14006CF90A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		ECCCFCC82A5B1A14006CF90A /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		ECCCFCCC2A5B1C73006CF90A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ECCCFCD32A5B1F62006CF90A /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		ECCCFCD42A5B1F62006CF90A /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +115,12 @@
 		ECCCFC8B2A5AFE5D006CF90A /* 1Lesson6Second */ = {
 			isa = PBXGroup;
 			children = (
+				ECCCFCCE2A5B1EE9006CF90A /* cell */,
+				ECCCFCCB2A5B1C49006CF90A /* models */,
+				ECCCFCBE2A5AFF03006CF90A /* apputils */,
+				ECCCFCBC2A5AFEF2006CF90A /* controllers */,
 				ECCCFC8C2A5AFE5D006CF90A /* AppDelegate.swift */,
 				ECCCFC8E2A5AFE5D006CF90A /* SceneDelegate.swift */,
-				ECCCFC902A5AFE5D006CF90A /* ViewController.swift */,
-				ECCCFC922A5AFE5D006CF90A /* Main.storyboard */,
-				ECCCFC952A5AFE5E006CF90A /* Assets.xcassets */,
-				ECCCFC972A5AFE5E006CF90A /* LaunchScreen.storyboard */,
 				ECCCFC9A2A5AFE5E006CF90A /* Info.plist */,
 			);
 			path = 1Lesson6Second;
@@ -125,6 +141,46 @@
 				ECCCFCAF2A5AFE5E006CF90A /* _Lesson6SecondUITestsLaunchTests.swift */,
 			);
 			path = 1Lesson6SecondUITests;
+			sourceTree = "<group>";
+		};
+		ECCCFCBC2A5AFEF2006CF90A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECCCFCBF2A5AFF39006CF90A /* FirstViewController.swift */,
+				ECCCFCC02A5AFF39006CF90A /* FirstViewController.xib */,
+				ECCCFCC32A5B098C006CF90A /* SecondViewController.swift */,
+				ECCCFCC42A5B098C006CF90A /* SecondViewController.xib */,
+				ECCCFCC72A5B1A14006CF90A /* ThirdViewController.swift */,
+				ECCCFCC82A5B1A14006CF90A /* ThirdViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		ECCCFCBE2A5AFF03006CF90A /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				ECCCFC902A5AFE5D006CF90A /* ViewController.swift */,
+				ECCCFC922A5AFE5D006CF90A /* Main.storyboard */,
+				ECCCFC952A5AFE5E006CF90A /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		ECCCFCCB2A5B1C49006CF90A /* models */ = {
+			isa = PBXGroup;
+			children = (
+				ECCCFCCC2A5B1C73006CF90A /* User.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		ECCCFCCE2A5B1EE9006CF90A /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				ECCCFCD32A5B1F62006CF90A /* UserTableViewCell.swift */,
+				ECCCFCD42A5B1F62006CF90A /* UserTableViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCCFC992A5AFE5E006CF90A /* LaunchScreen.storyboard in Resources */,
+				ECCCFCC62A5B098C006CF90A /* SecondViewController.xib in Resources */,
 				ECCCFC962A5AFE5E006CF90A /* Assets.xcassets in Resources */,
+				ECCCFCC22A5AFF39006CF90A /* FirstViewController.xib in Resources */,
+				ECCCFCCA2A5B1A14006CF90A /* ThirdViewController.xib in Resources */,
+				ECCCFCD62A5B1F62006CF90A /* UserTableViewCell.xib in Resources */,
 				ECCCFC942A5AFE5D006CF90A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +320,11 @@
 				ECCCFC912A5AFE5D006CF90A /* ViewController.swift in Sources */,
 				ECCCFC8D2A5AFE5D006CF90A /* AppDelegate.swift in Sources */,
 				ECCCFC8F2A5AFE5D006CF90A /* SceneDelegate.swift in Sources */,
+				ECCCFCC52A5B098C006CF90A /* SecondViewController.swift in Sources */,
+				ECCCFCD52A5B1F62006CF90A /* UserTableViewCell.swift in Sources */,
+				ECCCFCC92A5B1A14006CF90A /* ThirdViewController.swift in Sources */,
+				ECCCFCC12A5AFF39006CF90A /* FirstViewController.swift in Sources */,
+				ECCCFCCD2A5B1C73006CF90A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +367,6 @@
 				ECCCFC932A5AFE5D006CF90A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ECCCFC972A5AFE5E006CF90A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECCCFC982A5AFE5E006CF90A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
